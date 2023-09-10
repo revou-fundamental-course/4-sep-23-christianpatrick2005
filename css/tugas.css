@@ -18,7 +18,7 @@ h3 {
 .p3 {
      margin-left: 10px;
 }
-div {
+.garistepi {
      width: 1455px;
      height: 500px;
      border: 2px solid blueviolet;
@@ -106,4 +106,73 @@ input :focus {
     align-items: center;
     justify-content: center;
     margin-top: 8px;
+}
+h5 {
+    font-size: 30px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: 30px;
+}
+
+.logo {
+    width: 120px;
+     height: 150px;
+     border: 2px solid white;
+     position: relative;
+     right: 23%;
+}
+
+.imlogo {
+    width: 100px;
+}
+
+.contactus {
+    position: relative;
+    right: 18%;
+    bottom: 10%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact {position: relative;
+    right: 18%;
+    bottom: 10%;
+    font-size: 30px;
+}
+
+.support {
+    font-size: 30px;
+    right: 15%;
+    position: relative;
+    bottom: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.slogo {
+    width: 35px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+}
+
+.link {
+    font-size: 20px;
+    right: 400%;
+    position: relative;
+    bottom: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: aliceblue;
 }
